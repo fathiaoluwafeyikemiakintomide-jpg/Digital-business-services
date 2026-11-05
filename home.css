@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: url(./IMAGES/file_000000008eac81f582dd0d73ec8c5b9a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bar{
+    width: 100%;
+    padding: 22px 9%;
+    display: flex;
+    height: auto;
+    object-fit: contain;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.logo{
+    display: block;
+}
+.logo img{
+    display: block;
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+.links a:hover{
+    color: blue;
+}
+.btn{
+    display: inline;
+    padding: 10px 18px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.content{
+    align-items: center;
+    padding-left: 9%;
+    padding-top: 48px;
+    max-width: 580px;
+}
+h1{
+    color: white;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+p{
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 440px;
+    margin-bottom: 20px;
+}
+.us{
+    color: blue;
+    display: block;
+    margin-bottom: 5px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.get-started{
+    display: inline-block;
+    padding: 12px 26px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.our-service{
+    text-decoration: none;b
+    padding: 11px 25px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background: transparent;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
