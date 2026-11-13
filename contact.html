@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-     <nav class="bar">
-            <a href="#" class="logo"><img src="./IMAGES/digital-business-services-logo.svg" alt="logo-img"></a>
-            <div class="links">
+    <header class="header">
+            <img src="./IMAGES/digital-business-services-logo.svg" 
+            alt="digital business services-img">
+        </a>
+        <nav class="navbar">
                     <a href="./home.html">Home</a>
                     <a href="./about.html">About</a>
                     <a href="./services.html">Service</a>
                     <a href="./portfolio.html">Portfolio</a>
                     <a href="./pricing.html">Pricing</a>
                     <a href="./contact.html">Contact</a>
-            </div>
-          <a href="./get-started.html" class="btn">Get-Started</a>
         </nav>
+        <a href="get-started.html" class="get-started">Get-Started</a>
+     </header>
         <div class="contact">
             <div class="content">
                 <span class="our-work">Our Work</span>
@@ -26,8 +28,10 @@
                     <span>Get in Touch</span><br>
                     Let's Work Together
                     </h1>
-                    <p>
-                        Have a project in mind or just want to say hell0? We'd love to hear from you. Send us a message and we'll get back to you as soon as possible.
+                    <p class="description">
+                        Have a project in mind or just want to say hell0? 
+                        We'd love to hear from you. Send us a message and we'll
+                         get back to you as soon as possible.
                     </p>
                     <div class="cards">
                        <div class="card">
@@ -44,6 +48,7 @@
                        </div>
                        <div class="card">
                         <img src="./IMAGES/schedule_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="schedule-icon">
+                        <p>Mon Fri 9:00 AM - 6:00</p>
                     </div>
                 </div>
             </div>
@@ -54,9 +59,59 @@
                         <img src="./IMAGES/person_24dp_0000F5_FILL0_wght400_GRAD0_opsz24 - Copy (3).svg" alt="person-icon">
                         <input type="text" id="name" name="name" placeholder="your name">
                     </div>
-                    <label for="email">Email</label>
-                    <input type="text" id="email"
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <img src="./IMAGES/mail_24dp_0000F5_FILL0_wght400_GRAD0_opsz24.svg" alt="email-icon">
+                        <input type="email" id="email" name="email" placeholder="your email">
+                    </div>
+                    <label for="message">Message</label>
+                    <div class="message-box">
+                        <img src="./IMAGES/sms_24dp_0000F5_FILL0_wght400_GRAD0_opsz24 - Copy (2) - Copy.svg" alt="sms-icon">
+                        <textarea id="message" name="message" placeholder="your message"></textarea>
+                    </div>
+                    <button type="submit" class="send-btn">
+                            <img src="./IMAGES/send_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="send-icon">
+                            Send Message
+                    </button>
                 </form>
+            </div>
+        </div>
+        <div class="country">
+            <img src="./IMAGES/file_000000002870821195c8ef4ea65dbe02.png" 
+            alt="A Country-img">
+        </div>
+        <div class="features">
+            <div class="feature">
+                <img src="./IMAGES/headset_mic_24dp_0000F5_FILL0_wght400_GRAD0_opsz24 - Copy.svg" 
+                alt="headset-iicon">
+                <div>
+                    <h3>24/7 Support</h3>
+                    <p>We're here to help</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="./IMAGES/verified_user_24dp_0000F5_FILL0_wght400_GRAD0_opsz24 (1).svg" 
+                alt="verified user-icon">
+                <div>
+                    <h3>Trusted Partner</h3>
+                    <p>Your trust, Our Priority</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="./IMAGES/monitoring_24dp_0000F5_FILL0_wght400_GRAD0_opsz24 (1).svg" 
+                alt="monitoring-icon">
+                <div>
+                    <h3>Innovative Solution</h3>
+                    <p>For a better tomorrow</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="./IMAGES/handshake_24dp_0000F5_FILL0_wght400_GRAD0_opsz24.svg" 
+                alt="handshake-icon">
+                <div>
+                    <h3>Business Growth</h3>
+                    <p>Together we grow</p>
+                </div>
             </div>
         </div>
  </body>

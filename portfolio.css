@@ -7,7 +7,7 @@
 body{
     min-height: 100vh;
     background-image: url(./IMAGES/file_00000000347c8243ab8ba1fc35ae1ce7.png);
-    background-repeat: ;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
